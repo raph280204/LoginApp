@@ -26,7 +26,7 @@ namespace LoginApp
             StartPosition = FormStartPosition.CenterScreen;
             ClientSize = new Size(420, 210);
             MaximizeBox = false;
-            // B4 
+            // B5: đổi label sang tiếng Việt “Tên đăng nhập” và “Mật khẩu”
             // Label: Tên đăng nhập
             lblUserName = new Label
             {
@@ -48,7 +48,7 @@ namespace LoginApp
             // Label: Mật khẩu
             lblPassword = new Label
             {
-                Text = "Password",
+                Text = "Mat khau",
                 Location = new Point(30, 75),
                 AutoSize = true,
                 Name = "lblPassword"
