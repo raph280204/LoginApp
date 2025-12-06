@@ -44,7 +44,7 @@ namespace LoginApp
                 Width = 210,
                 TabIndex = 0
             };
-
+            // B3: thêm Label Mật khẩu, textbox: txtPassword
             // Label: Mật khẩu
             lblPassword = new Label
             {
